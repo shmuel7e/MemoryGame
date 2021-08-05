@@ -1,0 +1,187 @@
+/*body background color*/
+body{
+    padding:5px;
+    margin:5px;
+    background: linear-gradient(to left,#f05053, #e1eec3);
+}
+/*************************************************************************************************************************************************************************************/
+
+/*profile picture*/
+.pic img{
+    position: relative;
+    top: 0px; left: -7px; 
+    width:255px;
+    height:305px;
+    border:5px solid black;
+    border-radius:10px;
+}
+/*************************************************************************************************************************************************************************************/
+
+/*header stuff*/
+.header{
+    position:relative;
+    top:-187px;left:10px;
+    bottom:50px;
+    padding:5px;
+    margin-left:250px;
+    margin-top:-132px;
+    margin-bottom:-170px;
+    border:5px solid black;
+    border-radius:10px;
+}
+/*************************************************************************************************************************************************************************************/
+
+/* SHMUEL ELKIS */
+.header1{
+    font-family: "Times New Roman", Times, serif;
+    font-size:30px;
+    font-weight:700;
+    animation: text 5s infinite;
+}
+/*************************************************************************************************************************************************************************************/
+
+/*Electrical engineer*/
+.header2{
+    position:relative;
+    top:-25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:25px;
+    font-weight:800;
+    color:whitesmoke;
+    letter-spacing:1px;
+}
+/*************************************************************************************************************************************************************************************/
+
+/*about*/
+.about{
+    position:relative;
+    top:-40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:20px;
+    font-weight:500;
+    color:black;
+    text-decoration:line-through;
+}
+/*************************************************************************************************************************************************************************************/
+
+/*more about info*/
+.about1{
+    position:relative;
+    top:-90px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:20px;
+    font-weight:500;
+    color:black;
+}
+/*************************************************************************************************************************************************************************************/
+
+/*phone text*/
+.phone{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align:center;
+    color:white;
+}
+/*************************************************************************************************************************************************************************************/
+
+/*animation for SHMUEL ELKIS */
+@keyframes text{
+    50%{
+    color:white;
+    letter-spacing:10px;
+  }
+}
+/*************************************************************************************************************************************************************************************/
+
+/* media logos */
+.smedia img{
+    left:205px;
+    padding:5px;
+     width:50px;
+}
+/*************************************************************************************************************************************************************************************/
+
+/*media text*/
+.mediatext{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:800;
+    font-size:30px;
+}
+/*************************************************************************************************************************************************************************************/
+
+/* Table design */
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse; /*else it spreads*/
+    width: 100%; /*take the entire screen*/
+  }
+ td, th {
+    border: 1px solid #0c0909;
+    text-align: left; /*have the words inside the table from left to right */
+    padding: 8px;
+ }
+  tr:nth-child(even) { /*makes every uneven line with background color*/
+    background-color: #dddddd;
+ }
+/*************************************************************************************************************************************************************************************/
+
+/*Personal Background*/
+.BG{ 
+    font-size:15px;
+    font-family:serif;
+    color:black;
+}
+/*************************************************************************************************************************************************************************************/
+
+/*More personal background*/
+.NG{ 
+    animation:ttext 5s infinite;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:20px;
+}
+@keyframes ttext{
+    50%{
+    color:white;
+  }
+}
+/*************************************************************************************************************************************************************************************/
+
+/* list */
+.list{
+    color:darkred;
+    padding:5px;
+    font-size:20px;
+}
+/*************************************************************************************************************************************************************************************/
+
+/* final prokect */
+.final_pj{
+    border-bottom:2px solid black;
+    font-weight:800;
+    font-size:20px;
+}
+.final_pjt{
+    font-size:20px;
+}
+/*************************************************************************************************************************************************************************************/
+
+/* BUTTON to GAME */
+.button {
+    float:right;
+    transform:translate(0%,-100%);
+    transition: width 1s, height 2s;
+    width:100px;
+    height:100px;
+    background: linear-gradient(to left,#f05053, #e1eec3);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 50%;
+    font-weight: bolder
+}
+.button:hover{ 
+    width:108px;
+    height:108px;
+}
+/*************************************************************************************************************************************************************************************/
